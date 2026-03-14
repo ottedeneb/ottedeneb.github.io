@@ -1,0 +1,58 @@
+
+
+.logo{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    margin-top: 25px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.introduction{
+    text-align: center;
+}
+
+
+.name{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.description{
+    margin-top: -15px;
+}
+
+
+.bio{
+    margin-top: -15px;
+    display: flex; 
+    justify-content: center;
+}
+
+.social{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.distance{
+    transition: 0.5s;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.distance:hover{
+    transition: 0.5s;
+    color: rgb(226, 226, 226);
+}
+
+
